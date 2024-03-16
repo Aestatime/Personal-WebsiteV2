@@ -67,3 +67,11 @@ html{
     background: #34363D;
     height: 15px;
 }
+
+.IMgMuse{
+  user-drag: none;
+}
+
+.IMgPhoto{
+  user-drag: none;
+}
