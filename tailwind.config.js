@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         BlackText: '#212529',
-        mygreen: '#559723',
+        mygreen: '#70AF46',
         bgbutton: '#7ABA4A',
         borderImg: '#191b1f',
         cardBg: '#1E2126',

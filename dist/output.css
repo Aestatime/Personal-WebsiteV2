@@ -681,7 +681,7 @@ video {
 
 .bg-mygreen {
   --tw-bg-opacity: 1;
-  background-color: rgb(85 151 35 / var(--tw-bg-opacity));
+  background-color: rgb(112 175 70 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -769,6 +769,22 @@ video {
   padding-top: 2rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -820,6 +836,18 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
+}
+
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+
+.text-\[0\.9rem\] {
+  font-size: 0.9rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -860,7 +888,7 @@ video {
 
 .text-mygreen {
   --tw-text-opacity: 1;
-  color: rgb(85 151 35 / var(--tw-text-opacity));
+  color: rgb(112 175 70 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
@@ -874,7 +902,7 @@ video {
 }
 
 .decoration-mygreen {
-  text-decoration-color: #559723;
+  text-decoration-color: #70AF46;
 }
 
 .decoration-wavy {
@@ -933,7 +961,7 @@ video {
 
 .hover\:text-mygreen:hover {
   --tw-text-opacity: 1;
-  color: rgb(85 151 35 / var(--tw-text-opacity));
+  color: rgb(112 175 70 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -978,6 +1006,10 @@ video {
     margin-right: 0.5rem;
   }
 
+  .lg\:mr-auto {
+    margin-right: auto;
+  }
+
   .lg\:mt-36 {
     margin-top: 9rem;
   }
@@ -998,6 +1030,22 @@ video {
     width: 85%;
   }
 
+  .lg\:w-11 {
+    width: 2.75rem;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .lg\:columns-3 {
     -moz-columns: 3;
          columns: 3;
@@ -1016,8 +1064,8 @@ video {
     padding-right: 15rem;
   }
 
-  .lg\:pl-20 {
-    padding-left: 5rem;
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .lg\:pl-36 {
@@ -1056,6 +1104,14 @@ video {
 
   .lg\:text-\[1rem\] {
     font-size: 1rem;
+  }
+
+  .lg\:text-\[1\.4rem\] {
+    font-size: 1.4rem;
+  }
+
+  .lg\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 
   .lg\:leading-tight {
