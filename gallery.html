@@ -55,7 +55,7 @@
           <img class="IMgMuse" src="img/museum/rps-burntout02.png" alt="Gradient" />
           <img class="IMgMuse" src="img/museum/Gradient.png" alt="Gradient" />
           <img
-            class="IMgMuse"
+           class="IMgMuse"
             src="img/museum/IGPOSt Ke Sekian kalinya.png"
             alt="Watching Movies"
           />
@@ -111,6 +111,25 @@
           <img class="IMgMuse" src="img/museum/NKRIIGPost.png" alt="NKRI" />
           <img class="IMgMuse" src="img/museum/SorryPosterIG.png" alt="Sorry" />
         </div>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+        <script>
+          document.querySelectorAll('.items img').forEach(image => {
+            image.onclick = () => {
+              document.querySelector('.modal').style.display = 'block';
+              document.querySelector('.modal img').src = image.getAttribute('src');
+            }
+          });
+
+          document.querySelector('.modal span').onclick = () => {
+            document.querySelector('.modal').style.display = 'none';
+          }
+          </script>
+
       </div>
     </section>
   </body>

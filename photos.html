@@ -52,6 +52,24 @@
                 <img class="IMgPhoto" src="img/photos/Image_19.jpeg" alt="">
                 <img class="IMgPhoto" src="img/photos/Image_20.jpeg" alt="">
             </div>
+            <div id="myModal-photo" class="modalPhoto">
+                <span class="closePhoto">&times;</span>
+                <img class="modal-contentPhoto" id="img02">
+                <div id="caption-photo"></div>
+              </div>
+      
+              <script>
+                document.querySelectorAll('.items img').forEach(image => {
+                  image.onclick = () => {
+                    document.querySelector('.modalPhoto').style.display = 'block';
+                    document.querySelector('.modalPhoto img').src = image.getAttribute('src');
+                  }
+                });
+      
+                document.querySelector('.modalPhoto span').onclick = () => {
+                  document.querySelector('.modalPhoto').style.display = 'none';
+                }
+                </script>
         </div>
     </section>
 </body>
